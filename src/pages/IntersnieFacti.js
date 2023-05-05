@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react';
 import Card from "react-bootstrap/Card";
-import image from "../images/chinaHistory.jpg"
+import image from "../images/201121_0943_000.jpg"
 import posts from "../posts";
 import Button from "react-bootstrap/Button";
 import OffCanvas from "../components/OffCanvas";

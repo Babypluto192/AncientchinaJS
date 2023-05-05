@@ -13,6 +13,7 @@ import ChinaDinasty2 from "../images/chinaDinasty2.jpg"
 import placeholder from "../images/placeholder.jpg";
 import {useInView} from "framer-motion";
 import {Card} from "react-bootstrap";
+import InteresnieFacti from "../images/201121_0943_000.jpg"
 
 function Section({ children }) {
     const ref = useRef(null);
@@ -50,6 +51,8 @@ function Posts  (props) {
         case 6: image = ChinaDinasty
             break;
         case 7: image = ChinaDinasty2
+            break;
+        case 8: image = InteresnieFacti
             break;
         default: image = placeholder;
 
