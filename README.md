@@ -18,7 +18,7 @@ With cool navigation menu you can easily get to information you need
 
 ## Change background
 
-You can easily change background if rou don't see a text
+You can easily change background if you don't see a text
 
 ### Interesting test
 
