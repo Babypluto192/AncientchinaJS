@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+header {
+    padding: 10px;
+    border-bottom: #A0A0A0 solid 1px;
+    display: flex;
+    gap: 690px;
+    align-items: center;
+    background-color: #f2f2f2;
+
+    text-align: center;
+}
+header h1{
+    font-size: 36px;
+    color: #333;
+}
+
+.burgermenu{
+    font-size: 20px;
+    border: #333333 none 3px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+li {
+    list-style-type: none;
+    background-color: white;
+    border: #333 solid 1px;
+    padding: 2px;
+}
+
+
