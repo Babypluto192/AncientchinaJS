@@ -36,7 +36,6 @@ function Homepage() {
     };
 
 
-
     return (
         <div >
             <Header search = {search}/>

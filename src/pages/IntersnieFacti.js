@@ -115,7 +115,6 @@ const InteresnieFacti = () => {
                 </Card.ImgOverlay>
             </Card>
 
-
         </Section>
     )
 

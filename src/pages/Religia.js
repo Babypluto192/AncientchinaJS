@@ -7,6 +7,7 @@ import OffCanvas from "../components/OffCanvas";
 import {useInView} from "framer-motion";
 import Quiz from "../components/Quiz";
 import phone from "../images/pholetoviiphone.jpg"
+
 const questions = [{
     key: 1,
     questionText: "Какое учение стало доминирующим в Китае в период с Ханьской до Танской династий?",
