@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import OffCanvas from "../components/OffCanvas";
 import {useInView} from "framer-motion";
 import Quiz from "../components/Quiz";
-import phone from "../images/1657200180_1-pibig-info-p-yarko-fioletovii-fon-1.jpg"
+import phone from "../images/pholetoviiphone.jpg"
 const questions = [{
     key: 1,
     questionText: "Какое искусство было самым популярным в древнем Китае?",
@@ -91,7 +91,6 @@ const Art= () => {
             <header>
                 <OffCanvas />
                 <h1>Древний Китай</h1>
-
                 <Button className="primary" onClick={handleShow}>
                     Поменять фон
                 </Button>
@@ -103,7 +102,7 @@ const Art= () => {
                           alt="Card image"/>
                 <Card.ImgOverlay>
                     <Card.Title className = "pt-4 px-4" style = {{fontSize: 20 }}>{post.title}</Card.Title>
-                    <Card.Text  className = "px-4"style = {{fontSize: 20}}  >
+                    <Card.Text  className = "px-4" style = {{fontSize: 20}}  >
                         {post.text}
                     </Card.Text>
                     <Button className="primary" onClick={handleQuiz}>

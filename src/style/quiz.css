@@ -2,7 +2,7 @@
 .App {
     background: #252d4a;
     width: auto;
-    height: 500px;
+    height: 54vh;
     border-radius: 15px;
     padding: 20px;
     display: flex;
@@ -26,11 +26,11 @@
 }
 .question_text {
     margin-bottom: 15px;
-    margin-left: 200px;
+    margin-left: 22vh;
 
 }
 .answer_section {
-    width: 800px;
+    width: 86vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -50,7 +50,7 @@
     margin: 5px 0;
     outline: none;
 }
-button:hover {
+.answer_section button:hover {
     background: #234668;
     transition: all 0.3s ease;
 }

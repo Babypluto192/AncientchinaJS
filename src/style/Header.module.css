@@ -11,7 +11,7 @@ header {
     padding: 10px;
     border-bottom: #A0A0A0 solid 1px;
     display: flex;
-    gap: 690px;
+    gap: 74vh;
     align-items: center;
     background-color: #f2f2f2;
 
@@ -26,8 +26,8 @@ header h1{
     font-size: 20px;
     border: #333333 none 3px;
     position: absolute;
-    top: 70px;
-    left: 70px;
+    top: 8vh;
+    left: 8vh;
 }
 li {
     list-style-type: none;

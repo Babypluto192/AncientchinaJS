@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import classes from "../style/Posts.module.css";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import ChinaHistory from "../images/chinaHistory.jpg"
-import ChinaFilosophy from "../images/ChinaPhylosophy.jpg"
+import ChinaFilosophy from "../images/chinaPhylosophy.jpg"
 import ChinaReligia from "../images/chinaReliqia.jpg"
 import ChinaArt from "../images/chinaArt.jpg"
 import ChinaArchitecture from "../images/chinaArchitecture.jpg"
@@ -13,7 +13,7 @@ import ChinaDinasty2 from "../images/chinaDinasty2.jpg"
 import placeholder from "../images/placeholder.jpg";
 import {useInView} from "framer-motion";
 import {Card} from "react-bootstrap";
-import InteresnieFacti from "../images/201121_0943_000.jpg"
+import InteresnieFacti from "../images/chinaFacti.jpg"
 
 function Section({ children }) {
     const ref = useRef(null);
@@ -55,8 +55,6 @@ function Posts  (props) {
         case 8: image = InteresnieFacti
             break;
         default: image = placeholder;
-
-
     }
     let newtext = ''
     const a = props.post.text.length

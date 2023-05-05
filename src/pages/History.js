@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import OffCanvas from "../components/OffCanvas";
 import {useInView} from "framer-motion";
 import Quiz from "../components/Quiz";
-
+import phone from "../images/pholetoviiphone.jpg"
 
  const questions = [{
     key: 1,
@@ -79,15 +79,13 @@ let images = image
 
 const History = () => {
 
-
-
     const [show, setShow] = useState(false);
     const [quiz,setQuiz] = useState(false)
     const handleShow = () => setShow(!show);
     const handleQuiz = () => setQuiz(!quiz);
 
     if(show) {
-        images = "https://pibig.info/uploads/posts/2022-07/1657200180_1-pibig-info-p-yarko-fioletovii-fon-1.jpg"
+        images = phone
     } else{
         images = image
     }

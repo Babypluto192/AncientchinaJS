@@ -1,16 +1,12 @@
 import React, {useRef, useState} from 'react';
 import Card from "react-bootstrap/Card";
-
-import image from "../images/ChinaPhylosophy.jpg"
+import image from "../images/chinaPhylosophy.jpg"
 import posts from "../posts";
-
-
-
 import Button from "react-bootstrap/Button";
 import OffCanvas from "../components/OffCanvas";
 import {useInView} from "framer-motion";
 import Quiz from "../components/Quiz";
-import phone from "../images/1657200180_1-pibig-info-p-yarko-fioletovii-fon-1.jpg"
+import phone from "../images/pholetoviiphone.jpg"
 const questions = [{
     key: 1,
     questionText: "Как называется энегрия, которая согласно древнекитайским верованиям, пронзает все вокруг?",

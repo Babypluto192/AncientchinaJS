@@ -7,7 +7,7 @@ import OffCanvas from "../components/OffCanvas";
 import {useInView} from "framer-motion";
 import {ListGroup} from "react-bootstrap";
 import Quiz from "../components/Quiz";
-import phone from "../images/1657200180_1-pibig-info-p-yarko-fioletovii-fon-1.jpg"
+import phone from "../images/pholetoviiphone.jpg"
 const questions = [{
     key: 1,
     questionText: "Какая династия была первой династией древнего Китая?",

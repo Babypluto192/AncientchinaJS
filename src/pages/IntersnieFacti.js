@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react';
 import Card from "react-bootstrap/Card";
-import image from "../images/201121_0943_000.jpg"
+import image from "../images/chinaFacti.jpg"
 import posts from "../posts";
 import Button from "react-bootstrap/Button";
 import OffCanvas from "../components/OffCanvas";
@@ -8,7 +8,7 @@ import {useInView} from "framer-motion";
 import {ListGroup} from "react-bootstrap";
 import facti from "../facti"
 import Quiz from "../components/Quiz";
-import phone from "../images/1657200180_1-pibig-info-p-yarko-fioletovii-fon-1.jpg"
+import phone from "../images/pholetoviiphone.jpg"
 const questions = [{
     key: 1,
     questionText: "Какое из этих изобретений не появилось в Древнем Китае?",
@@ -80,9 +80,6 @@ let images = image
 
 const InteresnieFacti = () => {
 
-
-
-
     const [show, setShow] = useState(false);
     const [quiz,setQuiz] = useState(false)
     const handleShow = () => setShow(!show);
@@ -95,19 +92,16 @@ const InteresnieFacti = () => {
     }
     return(
         <Section>
-
-
             <header>
                 <OffCanvas />
                 <h1>Древний Китай</h1>
-
                 <Button className="primary" onClick={handleShow}>
                     Поменять фон
                 </Button>
             </header>
             {quiz ?   <Quiz questions ={questions} quiz = {quiz} set ={setQuiz} />: null}
             <Card   id ={`post${post.key}`} className="text-white mt-3 mx-3">
-                <Card.Img src={images} style={{height: "auto"}}
+                <Card.Img src={images}
                           alt="Card image"/>
                 <Card.ImgOverlay>
                     <ListGroup>

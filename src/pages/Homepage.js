@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import Header from "../components/Header";
-import Posts from "../components/posts";
+import Posts from "../components/Posts";
 import posts from "../posts";
 
 function Homepage() {
@@ -38,24 +38,12 @@ function Homepage() {
 
 
     return (
-
-
         <div >
-
-
-
             <Header search = {search}/>
-
-
-
             {filtered.map(post =>
                 <Posts post = {post} key = {post.key} />
             )}
         </div>
-
-
-
-
     );
 }
 

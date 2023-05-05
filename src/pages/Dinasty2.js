@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import OffCanvas from "../components/OffCanvas";
 import {useInView} from "framer-motion";
 import Quiz from "../components/Quiz";
-import phone from "../images/1657200180_1-pibig-info-p-yarko-fioletovii-fon-1.jpg"
+import phone from "../images/pholetoviiphone.jpg"
 const questions = [{
     key: 1,
     questionText: "Какая династия установила правило Мандат неба ?",
@@ -91,15 +91,13 @@ const Dinasty2= () => {
             <header>
                 <OffCanvas />
                 <h1>Древний Китай</h1>
-
                 <Button className="primary" onClick={handleShow}>
                     Поменять фон
                 </Button>
             </header>
             {quiz ?   <Quiz questions ={questions} quiz = {quiz} set ={setQuiz} />: null}
-
             <Card   id ={`post${post.key}`} className="text-white mt-3 mx-3">
-                <Card.Img src={images} style={{height: 1500}}
+                <Card.Img src={images} style={{height: "160vh"}}
                           alt="Card image"/>
                 <Card.ImgOverlay>
                     <Card.Title className = "pt-4 px-4" style = {{fontSize: 20 }}>{post.title}</Card.Title>
