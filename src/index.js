@@ -7,7 +7,6 @@ import {
     RouterProvider,
 } from "react-router-dom"
 import Homepage from "./pages/Homepage";
-
 import Phylosophia from "./pages/Phylosophia";
 import Religia from "./pages/Religia";
 import Archeticture from "./pages/Archeticture";
