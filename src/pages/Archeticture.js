@@ -97,7 +97,7 @@ const Architecture= () => {
             </header>
             {quiz ?   <Quiz questions ={questions} quiz = {quiz} set ={setQuiz} />: null}
             <Card   id ={`post${post.key}`} className="text-white mt-3 mx-3">
-                <Card.Img src={images} style={{height: "auto"}}
+                <Card.Img src={images}
                           alt="Card image"/>
                 <Card.ImgOverlay>
                     <Card.Title className = "pt-4 px-4" style = {{fontSize: 20 }}>{post.title}</Card.Title>
